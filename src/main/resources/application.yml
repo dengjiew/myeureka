@@ -15,5 +15,4 @@ eureka:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
 logging:
   path: /home/djweb/logs
-  file: ${eureka.instance.hostname}.log
 
